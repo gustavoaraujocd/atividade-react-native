@@ -17,7 +17,7 @@ const coverImage = 'https://images.unsplash.com/photo-1517842645767-c639042777db
 
 function Header({ screen, onNavigate }) {
   return <View style={styles.header}>
-    <View><Text style={styles.brand}>TASKTRACKER</Text><Text style={styles.headerTitle}>{screen === 'inspirations' ? 'Inspirações' : 'Planejador'}</Text></View>
+    <View><Text style={styles.brand}>FOCO DIÁRIO</Text><Text style={styles.headerTitle}>{screen === 'inspirations' ? 'Inspirações' : 'Planejador'}</Text></View>
     <Pressable style={styles.headerButton} onPress={() => onNavigate(screen === 'inspirations' ? 'planner' : 'inspirations')}><Ionicons name={screen === 'inspirations' ? 'options-outline' : 'images-outline'} size={24} color="#fff" /></Pressable>
   </View>;
 }
