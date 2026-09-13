@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TaskTracker Mobile",
-    "slug": "tasktracker-mobile",
+    "name": "Foco Diário",
+    "slug": "atividade-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
